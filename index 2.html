@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Finder | Helping Families Thrive</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #F8F9FA;
+            color: #343A40;
+        }
+        .hero-section {
+            position: relative;
+            background: url('https://source.unsplash.com/1600x900/?school,education') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+        }
+        .hero-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+        .hero-section .container {
+            position: relative;
+            z-index: 2;
+        }
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+        }
+        .hero-section p {
+            font-size: 1.25rem;
+        }
+        .content-section {
+            padding: 50px 0;
+        }
+        .btn-custom {
+            background-color: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Helping Families Find Inclusive and Supportive Schools</p>
+        </div>
+    </header>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Our Mission</h2>
+                    <p>We are dedicated to helping realtors and families find the best schools where their children feel welcome and thrive. Our platform highlights schools that foster belonging, support, and strong community values.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Why Choose Us?</h2>
+                    <ul class="list-unstyled">
+                        <li>✔️ Comprehensive school data</li>
+                        <li>✔️ User-friendly interface</li>
+                        <li>✔️ Focus on inclusion and diversity</li>
+                        <li>✔️ Trusted by realtors nationwide</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section bg-light">
+        <div class="container text-center">
+            <h2>Meet Our Team</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://images.pexels.com/photos/764681/pexels-photo-764681.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Team Member" class="rounded-circle mb-3" width="150">
+                    <h5>Ali Bhatti</h5>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://source.unsplash.com/200x200/?woman" alt="Team Member" class="rounded-circle mb-3">
+                    <h5>Andrew Khan</h5>
+                    <p>Chief Operating Officer</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://source.unsplash.com/200x200/?man" alt="Team Member" class="rounded-circle mb-3">
+                    <h5>Chris Corrales</h5>
+                    <p>Head of Research</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <div class="container">
+            <p>&copy; 2025 School Finder. All rights reserved.</p>
+            <button class="btn btn-custom" onclick="window.location.href='index.html';">Back to Home</button>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
