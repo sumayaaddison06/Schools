@@ -21,7 +21,3 @@ It serves as an informational site to introduce visitors to our mission and team
 
 Visit the website here:
 https://sumayaaddison06.github.io/
-
-📄 License
-
-© 2025 School Finder. All rights reserved.
